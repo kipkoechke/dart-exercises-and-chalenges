@@ -1,6 +1,7 @@
 void main() {
   print(youAreWonderful('Bob'));
   functionExercise2();
+  functionExercise3();
 }
 
 // Mini-exercises
@@ -22,4 +23,14 @@ void functionExercise2() {
   }
 
   print(youAreWonderful("Bob", 10));
+}
+// 3. Make both inputs named parameters. Make name
+// required and set numberPeople to have a default of 30.
+
+void functionExercise3() {
+  String youAreWinderful({required String name, numberPeople = 30}) {
+    return "You're wonderful,$name.$numberPeople people think so.";
+  }
+
+  print(youAreWinderful(name: 'Bob'));
 }
