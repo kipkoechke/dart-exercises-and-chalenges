@@ -1,6 +1,6 @@
 void main() {
   print(youAreWonderful('Bob'));
-  functionExerciseBasics2();
+  functionExercise2();
 }
 
 // Mini-exercises
@@ -16,7 +16,7 @@ String youAreWonderful(String name) {
 // numberPeople so that the function returns something
 // like “You’re wonderful, Bob. 10 people think so.”
 
-void functionExerciseBasics2() {
+void functionExercise2() {
   String youAreWonderful(String name, int numberPeople) {
     return "You're wonderful,$name.$numberPeople people think so.";
   }
