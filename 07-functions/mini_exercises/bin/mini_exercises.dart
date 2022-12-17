@@ -1,16 +1,20 @@
 void main() {
-  print(youAreWonderful('Bob'));
+  functionExercise1();
   functionExercise2();
   functionExercise3();
 }
 
-// Mini-exercises
+// Mini-exercises 1
 // 1. Write a function named youAreWonderful, with a String
 // parameter called name. It should return a string using
 // name, and say something like “You’re wonderful, Bob.”
 
-String youAreWonderful(String name) {
-  return 'You\'re wonderful, $name';
+void functionExercise1() {
+  String youAreWonderful(String name) {
+    return 'You\'re wonderful, $name';
+  }
+
+  print(youAreWonderful("Bob"));
 }
 
 // 2. Add another int parameter to that function called
