@@ -4,7 +4,10 @@ void main(List<String> arguments) {
     () => 42,
   ).then(
     (value) => print('Value: $value'),
-  );
+      )
+      .catchError(
+        (error) => print('Error:$error'),
+      );
 
   print(myFuture);
 }
