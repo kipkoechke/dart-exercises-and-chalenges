@@ -5,6 +5,7 @@ Future<void> main() async {
       Duration(seconds: 1),
       () => 42,
     );
+    throw Exception('There was an error');
     print('Value: $value');
    
   } catch (error) {
